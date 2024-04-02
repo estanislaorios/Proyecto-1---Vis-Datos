@@ -1,0 +1,39 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+@keyframes moveCars {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.carousel-container {
+  overflow: hidden;
+  padding: 60px 0;
+  white-space: nowrap;
+  position: absolute;
+  margin-top: 200px;
+
+}
+
+.carousel {
+  display: inline-block;
+  animation: 10s moveCars infinite linear;
+  
+}
+
+.auto {
+  height: 300px; 
+  width: auto; 
+  margin-right: 20px;
+
+}
+
+
