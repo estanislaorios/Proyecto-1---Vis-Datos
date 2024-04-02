@@ -8,7 +8,6 @@
 <main>
   <h1 class="headline">Porcentaje de combustible disponible</h1>
   <div class="rectangulo"></div>
-  <!-- Canal: altura. Tipo: col con divs -->
   <CarRows numbers={numbers} />
   
 </main>
